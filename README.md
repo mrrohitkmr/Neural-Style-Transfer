@@ -1,12 +1,6 @@
-## Neural Style Transfer (optimization method) :computer: + :art: = :heart:
-This repo contains a concise PyTorch implementation of the original NST paper (:link: [Gatys et al.](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)).
+Neural Style Transfer
+This repository contains a simple implementation of neural style transfer using TensorFlow. Neural style transfer is a technique that uses a neural network to apply the style of one image to the content of another image.
 
-It's an accompanying repository for [this video series on YouTube](https://www.youtube.com/watch?v=S78LQebx6jo&list=PLBoQnSflObcmbfshq9oNs41vODgXG-608).
-
-<p align="left">
-<a href="https://www.youtube.com/watch?v=S78LQebx6jo" target="_blank"><img src="https://img.youtube.com/vi/S78LQebx6jo/0.jpg" 
-alt="NST Intro" width="480" height="360" border="10" /></a>
-</p>
 
 ### What is NST algorithm?
 The algorithm transfers style from one input image (the style image) onto another input image (the content image) using CNN nets (usually VGG-16/19) and gives a composite, stylized image out which keeps the content from the content image but takes the style from the style image.
